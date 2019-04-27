@@ -13,7 +13,7 @@
 %endmacro
 
 %macro iloczyn 0
-	pop al
+	pop ax
 	pop bx
 	mul bx
 	push ax
